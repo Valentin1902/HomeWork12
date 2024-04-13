@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <form class="form"  autocomplete="on">
+<p class="title"> <img width="19.2px" height="19.2px"src="/style/image/__after.svg" alt=""> 
+    Register
+</p>
+<p class="massage">Signup now and get full access to our app.</p>
+    
+<div class="name_box">
+    <label >
+        <input required type="text" placeholder="">
+        <span>First name</span>
+    </label>
+    <label for="">
+        <input  required type="text">
+        <span>Last name</span>
+    </label>
+</div>
+<label for="">
+    <input
+    minlength="8"
+    maxlength="15"
+     required 
+     class="input" type="email"
+     pattern="^[a-zA-Z0-9._%+-]{6,24}@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" >
+    <span>Email</span>
+</label>
+<label for="">
+<input required
+minlength="7"
+ type="password" class="input"
+ 
+ >
+
+<span>Password</span>
+</label>
+<label  for="">
+    <input required class="input"type="text">
+    <span>Confirm password</span>
+</label>
+<button  class="submit">Submit</button>
+<p class="signin">Already have an acount ? <a href="#">Signin</a></p>
+</form>
+</body>
+</html>

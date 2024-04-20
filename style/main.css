@@ -145,6 +145,7 @@ img{
     border-radius: 16px;
     margin-right: 5px;
     border: 1px solid grey;
+    margin-bottom: -10px;
 }
 button{
     width: 308px;
@@ -154,7 +155,7 @@ button{
     margin-left: 10px;
     background-color: var(--color-text);
     border: 0;
-    margin-bottom: -10px;
+    
     
 }
 .submit{
